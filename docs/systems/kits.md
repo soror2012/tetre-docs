@@ -2,10 +2,10 @@
 title: Character Kits
 ---
 
-# Character Kits <span class="pill dev">In development (M3)</span>
+# Character Kits <span class="pill dev">Implemented (M3 prototype)</span>
 
-::: warning Demo placeholders
-These are the demo kits from the approved combat spec. The **trait and passive framework** is what is meant to last. The numbers and the exact techs will change.
+::: warning Prototype kits
+These kits are implemented in the M3 prototype. The **trait and passive framework** is what is meant to last. Numbers and exact techs will change with playtesting.
 :::
 
 Each character has three layers: a **Trait** that is always on, **Passives** that unlock with level, and **Techs** that cost MP.
@@ -29,6 +29,14 @@ Growth per level is in brackets.
 | [Lorena](/characters/lorena) | Vanguard | **Momentum**: each hit adds a stack (max 3); Heavy Strike spends them | Never Yield: survive a lethal hit at 1 HP, once per battle | Keeping Score: Silas's crit gives her 1 Momentum |
 | [Vulcan](/characters/vulcan) | Battle mage | **Idle Genius**: *Loaf* restores 12% MP and makes his next spell *Inspired*, +30% | Showoff: hitting a weakness pulls his turn 20 ticks sooner | Swordwork: Attack uses max(ATK, 0.8 x MAG) |
 | [Hugh](/characters/hugh) | Warden | **Vigilance**: overheal becomes Barrier, up to 25% max HP | Field Medic: +15% healing under 30% HP | Eager: always first to act in a battle |
+
+## How the pieces behave
+
+- **Attuned** (Silas) and **Inspired** (Vulcan) last **until used**. They don't tick down.
+- **Heavy Strike** spends all of Lorena's Momentum for extra power, and *then* its own hit grants 1 Momentum.
+- **Guarded** and **Defending** clear when their owner's next turn arrives.
+- Timed statuses such as Kindled, Shocked and Barrier count down at the start of the affected unit's turn.
+- Combos never grant Momentum on their own: *Even Score* gives Lorena 1 per hit, while *Firebrand* only spends it.
 
 ## Techs
 

@@ -8,7 +8,7 @@ title: How It's Built
 
 > **Rules live in pure TypeScript, and Phaser is a thin player.**
 
-Everything that decides what happens (maps, movement, events, text paging, game state and, soon, all of combat) lives in `systems/` with **no Phaser import**. Scenes only draw and take input. That keeps the rules unit-testable without a renderer and lets the same state serve combat and saves.
+Everything that decides what happens (maps, movement, events, text paging, game state and combat) lives in `systems/` with **no Phaser import**. Scenes only draw and take input. That keeps the rules unit-testable without a renderer and lets the same state serve combat and saves.
 
 ```
 Boot → Title → Exploration(map, spawn) ⇄ Exploration(other map)

@@ -224,3 +224,9 @@ html.is-spoiler .VPNav { border-bottom: 3px solid #b3283d; }
 .spoiler-nav a:hover { color: var(--vp-c-text-1); }
 .spoiler-nav a.active { color: #b3283d; border-left-color: #b3283d; font-weight: 700; }
 .dark .spoiler-nav a.active { color: #f08a9a; border-left-color: #f08a9a; }
+
+/* enemy battler row */
+.enemy-row { display: flex; flex-wrap: wrap; gap: 18px; margin: 18px 0; }
+.enemy-row figure { margin: 0; text-align: center; background: var(--vp-c-bg-soft); border: 2px solid var(--vp-c-border); padding: 10px 14px 6px; }
+.enemy-row img { height: 120px; width: auto; border: none !important; box-shadow: none !important; image-rendering: pixelated; }
+.enemy-row figcaption { font-family: var(--t-display); font-size: 14px; margin-top: 4px; }

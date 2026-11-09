@@ -10,10 +10,10 @@ Tetre is built around three things, in this order: **exploration**, **combat** a
 |---|---|---|
 | Exploration and controls | <span class="pill">Playable</span> | [Exploration & Controls](./exploration) |
 | Dialogue and events | <span class="pill">Playable</span> | [Dialogue & Events](./dialogue) |
-| Combat | <span class="pill dev">In development (M3)</span> | [Combat](./combat) |
-| Character kits | <span class="pill dev">In development (M3)</span> | [Character Kits](./kits) |
-| Combo Techs | <span class="pill dev">In development (M3)</span> | [Combo Techs](./combo-techs) |
-| Progression | <span class="pill dev">In development (M3)</span> | [Progression](./progression) |
+| Combat | <span class="pill dev">Implemented (M3 prototype)</span> | [Combat](./combat) |
+| Character kits | <span class="pill dev">Implemented (M3 prototype)</span> | [Character Kits](./kits) |
+| Combo Techs | <span class="pill dev">Implemented (M3 prototype)</span> | [Combo Techs](./combo-techs) |
+| Progression | <span class="pill dev">Implemented (M3 prototype)</span> | [Progression](./progression) |
 
 ## Design pillars
 

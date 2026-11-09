@@ -53,6 +53,24 @@ try {
       } else console.log('missing', family, name);
     }
   }
+  // Enemy battlers (single-frame sprites, drawn at 4x).
+  for (const name of ['practice_automaton', 'vulture_trooper', 'vulture_engineer', 'vulture_breacher']) {
+    const url = await page.evaluate((key) => {
+      for (const item of document.querySelectorAll('#gallery .item')) {
+        if ((item.lastElementChild?.textContent ?? '').startsWith(`battler:${key} `)) {
+          const src = item.querySelector('canvas');
+          const c = document.createElement('canvas');
+          c.width = src.width * 4; c.height = src.height * 4;
+          const ctx = c.getContext('2d'); ctx.imageSmoothingEnabled = false;
+          ctx.drawImage(src, 0, 0, c.width, c.height);
+          return c.toDataURL('image/png');
+        }
+      }
+      return null;
+    }, name);
+    if (url) { writeFileSync(join(out, `${name}-battler.png`), Buffer.from(url.split(',')[1], 'base64')); console.log('wrote', `${name}-battler.png`); }
+    else console.log('missing battler', name);
+  }
   await browser.close();
 } finally {
   try { process.kill(-vite.pid); } catch {}

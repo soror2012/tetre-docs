@@ -14,8 +14,8 @@ Tetre is in early development. The first goal is a coherent **15 to 25 minute ve
 | B | Plan | Architecture, art direction and roadmap approved | <span class="pill">Done</span> |
 | C / M1 | Foundation | Toolchain, title screen, build and tests passing | <span class="pill">Done</span> |
 | D / M2 | Exploration slice | Walk the Academy, talk to NPCs, move between courtyard and classroom | <span class="pill">Done</span> |
-| **M3** | **Combat prototype** | A four-character party vs. an enemy group, with victory and defeat, back to exploration | <span class="pill dev">In progress</span> |
-| M4 | Narrative prototype | The opening, the first Ward Flicker, meeting the General, the Ward Chambers and the second Flicker | Planned |
+| **M3** | **Combat prototype** | A four-character party vs. an enemy group, with victory and defeat, back to exploration | <span class="pill">Implemented</span>, now in integration and polish |
+| **M4** | **Narrative prototype** | The opening, the first Ward Flicker, meeting the General, the Ward Chambers and the second Flicker | <span class="pill dev">Next</span> |
 | M5 | Full demo | The full demo playable start to finish | Planned |
 | M6 | Polish | A coherent 15 to 25 minute slice | Planned |
 
@@ -27,11 +27,20 @@ Tetre is in early development. The first goal is a coherent **15 to 25 minute ve
 - A dialogue system with portraits, typewriter text, choices and flags
 - A Ward Flicker effect
 - Procedurally generated pixel art for every tile, sprite and portrait
-- 116 unit tests and an end-to-end keyboard playthrough, all passing at the end of Phase D
+- Unit tests and an end-to-end keyboard playthrough, kept green as milestones land
 
-## What's being built (M3)
+- A visible-timeline battle engine with four character kits, five Combo Techs and deterministic enemy AI
+- Four enemy types with battle art, three encounters and a courtyard training bout against a Practice Automaton
 
-The battle engine, the timeline, the four character kits, five Combo Techs and the enemy AI. See [Combat](/systems/combat).
+## Where we are
+
+**Phase D is done and the M3 combat prototype is implemented.** It is in integration and polish: fixing battle layout (party formation overlap), tightening presentation and playtesting. See [Combat](/systems/combat).
+
+**Balance note:** combos are currently very strong (an opening Threefold Dawn can cut a fight to a third of its length). They will be tuned after playtesting, for instance by lowering Threefold Dawn's power, raising its cost or shrinking the ready window.
+
+## Next: M4
+
+The narrative prototype: Wing, the Ward Chambers and the two Ward Flickers, played in sequence on top of the finished exploration and combat.
 
 ## What's still open
 

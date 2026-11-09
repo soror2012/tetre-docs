@@ -31,7 +31,13 @@ The game is played with the keyboard. Gamepad support is planned to use the same
 
 ## Interacting
 
-Face a person or object and press Confirm. NPCs turn to face you. Interactables include noticeboards, plaques, bookshelves and the chalkboard.
+Face a person or object and press Confirm. NPCs turn to face you. Interactables include the training construct, noticeboards, plaques, bookshelves and the chalkboard.
+
+## The training construct
+
+Beside the courtyard's open plaza stands a **Practice Automaton**, an Academy training construct. A brass plate reads **"SPAR AT YOUR OWN RISK."** Talk to it and you are asked whether to start a training bout. Say yes and the screen shatters into a battle against two constructs (see [Combat](./combat)). Winning returns you to the same tile, facing the same way, with your HP and MP carried over.
+
+Hurt? **Hugh** will patch the whole party up when you talk to him again.
 
 ## Places
 
