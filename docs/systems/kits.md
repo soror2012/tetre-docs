@@ -27,7 +27,7 @@ Growth per level is in brackets.
 |---|---|---|---|---|
 | [Silas](/characters/silas) | Spellblade | **Twin Discipline**: physical then magic (or the reverse) grants *Attuned*, +25% power | Steady Hand: +5% physical crit | Peacekeeper: an ally under 30% HP pulls his next turn 25% closer, once per ally |
 | [Lorena](/characters/lorena) | Vanguard | **Momentum**: each hit adds a stack (max 3); Heavy Strike spends them | Never Yield: survive a lethal hit at 1 HP, once per battle | Keeping Score: Silas's crit gives her 1 Momentum |
-| [Vulcan](/characters/vulcan) | Battle mage | **Idle Genius**: *Loaf* restores 12% MP and makes his next spell *Inspired*, +30% | Showoff: hitting a weakness pulls his turn 20 ticks sooner | Swordwork: Attack uses max(ATK, 0.8 x MAG) |
+| [Vulcan](/characters/vulcan) | Battle mage | **Idle Genius**: *Channel* restores 12% MP and makes his next spell *Inspired*, +30% | Showoff: hitting a weakness pulls his turn 20 ticks sooner | Swordwork: Attack uses max(ATK, 0.8 x MAG) |
 | [Hugh](/characters/hugh) | Warden | **Vigilance**: overheal becomes Barrier, up to 25% max HP | Field Medic: +15% healing under 30% HP | Eager: always first to act in a battle |
 
 ## How the pieces behave

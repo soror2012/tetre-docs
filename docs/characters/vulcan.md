@@ -33,7 +33,7 @@ He relies on magic but can look after himself in a scuffle, and his reluctance a
 
 | | |
 |---|---|
-| **Trait: Idle Genius** | His Defend is called *Loaf*. It restores 12% of max MP, and his next spell is *Inspired* (+30% power). Lazy, until he isn't. |
+| **Trait: Idle Genius** | His Defend is called *Channel*. It restores 12% of max MP, and his next spell is *Inspired* (+30% power). Lazy, until he isn't. |
 | **Passive L1: Showoff** | When a spell hits an elemental weakness, his next turn comes 20 ticks sooner |
 | **Passive L3: Swordwork** | His basic Attack uses the higher of his ATK or 80% of his MAG, thanks to Silas |
 | **Techs** | Kindle (Fire), Tempest (Lightning, all enemies) |

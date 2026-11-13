@@ -39,7 +39,7 @@ The strip at the top of the screen shows the **next eight turns**. While you bro
 `Attack · Techs · Item · Defend · Flee`
 
 - **Techs** opens the character's techs, then a **Combos** section for every combo they take part in. Each combo shows its partners, the MP each pays and whether it is ready.
-- **Defend** halves the damage you take until your next turn (it clears when that turn arrives). It costs a short turn (60), and Vulcan's version is *Loaf*.
+- **Defend** halves the damage you take until your next turn (it clears when that turn arrives). It costs a short turn (60), and Vulcan's version is *Channel*.
 - **Item** uses the shared party inventory.
 - **Flee** only works in some fights. The chance rises when the party is faster than the enemy, and a failed attempt costs the turn.
 

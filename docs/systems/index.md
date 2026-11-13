@@ -17,7 +17,7 @@ Tetre is built around three things, in this order: **exploration**, **combat** a
 
 ## Design pillars
 
-1. **Every character is a different verb.** Silas alternates, Lorena builds and cashes in, Vulcan loafs then erupts, Hugh over-protects.
+1. **Every character is a different verb.** Silas alternates, Lorena builds and cashes in, Vulcan channels then erupts, Hugh over-protects.
 2. **Read the timeline, plan the combo.** Turn order is always visible, and combos reward lining up partners' turns.
 3. **Relationships are mechanics.** Combos mirror the cast's bonds.
 4. **Short, punchy fights.** A standard encounter takes two to four minutes. No grinding is needed in the demo.
